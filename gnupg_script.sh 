@@ -21,3 +21,14 @@ lsblk -f
 # line break
  [ -d /sys/firmware/efi ] && echo "UEFI" || echo "BIOS"
  #Start a test that verifies if a directory exists and outputs the path to the EFI folder, and if true, sends a BIOS message to the console in English.
+ echo "mi archivo " > test.txt
+ #create a new file 
+ stat test.txt 
+ #File: test.txt
+  Size: 12              Blocks: 8          IO Block: 4096   regular file
+Device: 7,4     Inode: 1572978     Links: 1
+Access: (0666/-rw-rw-rw-)  Uid: ( 1000/codespace)   Gid: ( 1000/codespace)
+Access: 2026-03-30 15:48:59.524499072 +0000
+Modify: 2026-03-30 15:48:59.524499072 +0000
+Change: 2026-03-30 15:48:59.524499072 +0000
+ Birth: 2026-03-30 15:48:59.524499072 +0000
