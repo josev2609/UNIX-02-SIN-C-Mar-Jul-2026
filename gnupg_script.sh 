@@ -19,3 +19,5 @@ lsblk -f
 
 "\n--\n"
 # line break
+ [ -d /sys/firmware/efi ] && echo "UEFI" || echo "BIOS"
+ #Start a test that verifies if a directory exists and outputs the path to the EFI folder, and if true, sends a BIOS message to the console in English.
