@@ -1,6 +1,21 @@
 sudo apt update 
-#actualiza la lista de paquetes disponibles en los repositorios de linux 
-sudo apt uppgrade 
-#actualiza los repositorios configurados en el sistema
+# updates the list of available packages in the Linux repositories 
+
+sudo apt upgrade 
+# upgrades the packages configured in the system 
+
 sudo apt install parted
-#instala parted en debian 
+# installs parted on Debian 
+
+sudo parted -l && echo -e "\n--\n" && lsblk -f && echo -e "\n--\n"
+parted -l
+# shows the partition tables 
+
+lsblk -f 
+# displays the disk structure with its logical volumes 
+
+&&
+# executes the next command only if the previous one was successful 
+
+"\n--\n"
+# line break
