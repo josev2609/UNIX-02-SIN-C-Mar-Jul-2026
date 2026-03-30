@@ -1,5 +1,6 @@
 sudo apt update 
-#
+#actualiza la lista de paquetes disponibles en los repositorios de linux 
 sudo apt uppgrade 
-#
-
+#actualiza los repositorios configurados en el sistema
+sudo apt install parted
+#instala parted en debian 
