@@ -1,4 +1,8 @@
 cd calculadora
-#ruta relativa
+#relative route
 cd /workspaces/UNIX-02-SIN-C-Mar-Jul-2026/calculadora
-#ruta absoluta 
+#absoulute route
+ls -lai
+#l=list a=all i=inode
+ls -l -a -i
+#the same options but in a separate way 
