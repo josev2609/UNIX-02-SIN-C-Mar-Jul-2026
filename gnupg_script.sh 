@@ -2,3 +2,9 @@ ls -a
 show the files wiht a short form 
 la --all 
 long form 
+ ls -l -a -h 
+ list all files and permissions 
+ ls -l 
+ list the files but dont shows the hide files 
+ls -lah
+list the files but whith a simplify form 
