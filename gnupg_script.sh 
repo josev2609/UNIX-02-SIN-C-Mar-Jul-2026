@@ -12,3 +12,7 @@ mkdir -- -rf
 create a folder called -rf 
 rmdir -- -rf 
 delete the folder 
+ls --help 
+show a short manual 
+man ls 
+show the complete manual 
