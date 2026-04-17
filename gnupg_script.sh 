@@ -9,4 +9,6 @@ long form
 ls -lah
 list the files but whith a simplify form 
 mkdir -- -rf 
-create a carpet called -rf 
+create a folder called -rf 
+rmdir -- -rf 
+delete the folder 
