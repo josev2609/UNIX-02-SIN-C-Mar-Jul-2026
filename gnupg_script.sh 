@@ -28,3 +28,11 @@ ls -l
 #ls=list 
 #-=type of file 
 #symbolich link 
+chmod +x script.sh 
+#everyone can execute 
+chmod u+x script.sh 
+#only the owner can execute 
+chmod o-r secreto.txt 
+#remove read to others 
+chmod u+rw,go-rwx privado 
+#nobody can do anything 
