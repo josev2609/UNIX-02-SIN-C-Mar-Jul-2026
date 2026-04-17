@@ -1,2 +1,4 @@
 ls -a
-show the files 
+show the files wiht a short form 
+la --all 
+long form 
