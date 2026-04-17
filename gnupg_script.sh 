@@ -8,3 +8,5 @@ long form
  list the files but dont shows the hide files 
 ls -lah
 list the files but whith a simplify form 
+mkdir -- -rf 
+create a carpet called -rf 
