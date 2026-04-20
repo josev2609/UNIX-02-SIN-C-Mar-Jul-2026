@@ -44,3 +44,13 @@ sudo sh -c 'echo "chao" >> /etc/archivo_protegido'
 #do a entire shell 
 sudo -i 
 #go to root have permissions but not forever 
+echo "$HOME"
+#Expand the variable
+echo '$HOME'
+#show the string 
+      ls -l hola-sh 
+      ls -l hola.sh 
+     chmod +x hola.sh 
+     ls -l hola.sh 
+   ./hola.sh 
+   
