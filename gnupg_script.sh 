@@ -36,3 +36,5 @@ chmod o-r secreto.txt
 #remove read to others 
 chmod u+rw,go-rwx privado 
 #nobody can do anything 
+sudo echo "hola" > /etc/archivo_protegido
+#give permissions in echo but in etc dont give permissions 
