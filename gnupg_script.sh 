@@ -39,4 +39,8 @@ chmod u+rw,go-rwx privado
 sudo echo "hola" > /etc/archivo_protegido
 #give permissions in echo but in etc dont give permissions 
 echo "hola" | sudo tee /etc/archivo_protegido > /dev/null
-send hola to a black hole for dont show the word in the terminal 
+#send hola to a black hole for dont show the word in the terminal 
+sudo sh -c 'echo "chao" >> /etc/archivo_protegido'
+#do a entire shell 
+sudo -i 
+#go to root have permissions but not forever 
