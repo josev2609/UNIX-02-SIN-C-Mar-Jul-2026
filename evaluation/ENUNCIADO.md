@@ -266,4 +266,3 @@ En el editor gráfico (VS Code / Codespaces): panel **Source Control** (`Ctrl+Sh
 
 ---
 
-
