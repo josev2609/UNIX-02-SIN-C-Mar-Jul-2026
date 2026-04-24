@@ -1,0 +1,85 @@
+ 1  git remote -v 
+    2  git fetch upstreem 
+    3  git remote -v 
+    4  fetch
+    5  git fetch upstream 
+    6  git checkout -b eval_p2_1_v1 upstream/eval_p2_1_v1
+    7  git remote -v 
+    8  git fetch upstream 
+    9  git checkout -b eval_p2_1_g1 upstream/eval_p2_1_g1
+   10  git push -u origin eval_p2_1_g1
+   11  mv notas apuntes 
+   12  cd notas 
+   13  cd orion 
+   14  cd evaluation 
+   15  cd orion 
+   16  mv notas apuntes 
+   17  exit 
+   18  cd evaluation 
+   19  cd orion 
+   20  mv apuntes notas
+   21  mv notas apuntes 
+   22  mkdir orion/respaldos 
+   23  cd orion 
+   24  mkdir respaldos 
+   25  /home 
+   26  /
+   27  cd /
+   28  cd /workspaces/UNIX-02-SIN-C-Mar-Jul-2026
+   29  cd evaluation 
+   30  cd orion 
+   31  mv telemetria.log apuntes 
+   32  mv config.tmp config.conf 
+   33  git add 
+   34  git commit -m "Fix problema 2: archivos movidos y renombrados"
+   35  chmod 640 telemetria.log 
+   36  chmod 640 /apuntes/telemetria.log
+   37  chmod 640 orion/apuntes/telemetria.log
+   38  ls -l orion/apuntes/telemetria.log
+   39  cd /workspaces/UNIX-02-SIN-C-Mar-Jul-2026
+   40  ls -l orion/apuntes/telemetria.log
+   41  cat -l orion/apuntes/telemetria.log
+   42  cat -la orion/apuntes/telemetria.log
+   43  cat orion/apuntes/telemetria.log
+   44  cat telemetria.log 
+   45  cat apuntes 
+   46  cd evaluation 
+   47  cat apuntes 
+   48  cd apuntes 
+   49  cd orion
+   50  cat apuntes 
+   51  ls apuntes 
+   52  ls -l apuntes 
+   53  chmod 640 telemetria.log 
+   54  chmod 640 apuntes/telemetria.log 
+   55  ls -l apuntes 
+   56  chmod u+x script.sh
+   57  chmod o-w config.conf
+   58  ls -l script.sh config.conf
+   59  git add .
+   60  git commit -m "Fix problema 4: permisos simbolicos corregidos"
+   61  chmod u+s script.sh
+   62  chmod 4755 script.sh
+   63  ls -l script.sh
+   64  git add. 
+   65  git add . 
+   66  git commit -m "Fix problema 5: SUID activado en script.sh"
+   67  chmod +t /tmp/orion_zone
+   68  mkdir tmp 
+   69  touch /tmp/orion_zone/mi_archivo.txt
+   70  cd /workspaces/UNIX-02-SIN-C-Mar-Jul-2026
+   71  touch /tmp/orion_zone/mi_archivo.txt
+   72  mkdir -p /tmp/orion_zone
+   73  touch /tmp/orion_zone/mi_archivo.txt
+   74  gpg --gen-key
+   75  gpg -e -r "lyra@orion.lab" -o orion/apuntes/telemetria.log.gpg orion/apuntes/telemetria.log
+   76  gpg -e -r "lyra@orion.lab" -o apuntes/telemetria.log.gpg apuntes/telemetria.log
+   77  gpg -e -r "lyra@orion.lab" -o orion/apuntes/telemetria.log.gpg orion/apuntes/telemetria.log
+   78  cd evaluation 
+   79  cd orion
+   80  gpg -e -r "lyra@orion.lab" -o apuntes/telemetria.log.gpg apuntes/telemetria.log
+   81  gpg --clearsign --output config.conf.asc config.conf
+   82  gpg --verify script.sh.sig script.sh
+   83  gpg --detach-sign --armor --output script.sh.sig script.sh
+   84  gpg --verify script.sh.sig script.sh
+   85  history 
