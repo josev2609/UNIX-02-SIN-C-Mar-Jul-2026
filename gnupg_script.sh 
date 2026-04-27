@@ -53,4 +53,14 @@ echo '$HOME'
      chmod +x hola.sh 
      ls -l hola.sh 
    ./hola.sh 
-   
+The issues are problems in the code with the solutions of the ingeniers 
+stack overflow have problems in the real work of programmer, ia can not solve this porblms because dosent has the operience of a real work 
+umask 027 sets the default file permissions so new files and folders are not accessible to others and only the owner and group have limited access.
+
+umask shows the current default permission mask for newly created files and directories.
+
+touch archivo2 creates a new empty file called archivo2 or updates its modification date if it already exists.
+
+mkdir directorio2 creates a new directory called directorio2.
+
+ls -l lists files and directories in long format, showing details like permissions, owner, size, and modification date.
