@@ -5,3 +5,6 @@
  # tools and settings already prepared. When the course environment starts, 
  # Docker creates a running container from that image. 
  # The image is the blueprint, and the container is the house built from it.
+ # We can create many containers from the same image, and deleting one 
+ # container does not delete the image. # 
+ # Docker builds images in layers. Each instruction such as FROM, ENV, or RUN
