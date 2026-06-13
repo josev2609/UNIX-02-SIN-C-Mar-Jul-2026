@@ -3,4 +3,5 @@
 # or GitHub Codespaces reads from top to bottom to build an image. #
  # A Docker image is like a frozen template of a Linux system with all the 
  # tools and settings already prepared. When the course environment starts, 
- # Docker creates a running container from that image. #
+ # Docker creates a running container from that image. 
+ # The image is the blueprint, and the container is the house built from it.
