@@ -184,4 +184,20 @@
 # multiple lines of text as input to a command until the ending marker is found. 
 # Here, cat appends that text to the .zshrc file. # 
 # The single quotes around 'EOF' prevent variable expansion during the Docker 
-# build, so the prompt symbols remain literal until zsh reads them later. # # The PROMPT line controls how the zsh prompt looks: # %n = username # %m = host name # %~ = current directory # %# = # for root or % for a normal user # # Redirection and heredoc — BHB Ch.1 RUN cat >> /root/.zshrc <<'EOF' # Course prompt for zsh. PROMPT='%n@%m:%~%# ' # Useful aliases for interactive work. alias ll='ls -la' alias grep='grep --color=auto' EOF # ---------------------------------------------------------------------------- # CMD: default command when the container starts # ---------------------------------------------------------------------------- # CMD defines what runs when a container starts. # # This is different from RUN: # RUN executes during the image build and creates image layers. # CMD executes when a container is launched from the image. # # Starting zsh gives the user an interactive shell by default. CMD ["/usr/bin/zsh"]
+# build, so the prompt symbols remain literal until zsh reads them later. # 
+# The PROMPT line controls how the zsh prompt looks: 
+# %n = username 
+# %m = host name 
+# %~ = current directory 
+# %# = 
+# for root or % for a normal user #
+# Redirection and heredoc — BHB Ch.1 RUN cat >> /root/.zshrc <<'EOF' 
+# Course prompt for zsh. PROMPT='%n@%m:%~%# ' 
+# Useful aliases for interactive work. alias ll='ls -la' alias grep='grep --color=auto' EOF 
+# ---------------------------------------------------------------------------- 
+# CMD: default command when the container starts 
+# ---------------------------------------------------------------------------- 
+# CMD defines what runs when a container starts. # 
+# This is different from RUN: # RUN executes during the image build and creates image layers. 
+# CMD executes when a container is launched from the image. # 
+# Starting zsh gives the user an interactive shell by default. CMD ["/usr/bin/zsh"]
