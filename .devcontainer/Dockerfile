@@ -8,3 +8,8 @@
  # We can create many containers from the same image, and deleting one 
  # container does not delete the image. # 
  # Docker builds images in layers. Each instruction such as FROM, ENV, or RUN
+ # creates a new layer. Docker can reuse cached layers when the previous 
+ # instructions have not changed, so instruction order matters: stable steps 
+ # should appear earlier, and frequently changed steps should appear later. 
+ # This makes rebuilds faster and keeps the image more efficient. 
+ # Docker / container lab idea — BHB Ch.3
