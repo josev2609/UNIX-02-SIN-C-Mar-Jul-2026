@@ -13,3 +13,4 @@
  # should appear earlier, and frequently changed steps should appear later. 
  # This makes rebuilds faster and keeps the image more efficient. 
  # Docker / container lab idea — BHB Ch.3
+ # FROM: base image used to build this course environment
